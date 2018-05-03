@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/size_padding"
+    android:id="@+id/container"
+    android:background="@drawable/background"
+    tools:context="mx.com.dloza.descendent.RestaurantActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_fruty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size_5"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/fruty"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:textSize="@dimen/size_15"
+            android:textColor="@color/orange"
+            />
+
+
+        <Button
+            android:id="@+id/btn_mostacho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sr_mostacho"
+            android:onClick="onClick"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/size_5"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:textSize="@dimen/size_15"
+            android:textColor="@color/orange"
+            />
+
+        <Button
+            android:id="@+id/btn_rincon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rincon_28"
+            android:onClick="onClick"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:layout_margin="@dimen/size_5"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textSize="@dimen/size_15"
+            android:textColor="@color/orange"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_nana_pancha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size_5"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:onClick="onClick"
+            android:text="@string/nana_pancha"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textSize="@dimen/size_15"
+            android:textColor="@color/orange"
+            />
+
+
+        <Button
+            android:id="@+id/btn_restaurant_square"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restaurant_plaza"
+            android:onClick="onClick"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:layout_margin="@dimen/size_5"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textSize="@dimen/size_15"
+            android:textColor="@color/orange"
+            />
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/size_12"
+        android:onClick="mapsActivity"
+        app:srcCompat="@drawable/localitation" />
+
+    <FrameLayout
+        android:id="@+id/container_fragment"
+        android:layout_margin="@dimen/size_5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></FrameLayout>
+
+
+</LinearLayout>

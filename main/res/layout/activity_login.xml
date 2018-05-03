@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backfour"
+    tools:context=".dolores.LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_principal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/size_50"
+        android:fontFamily="cursive"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/size_40"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:singleLine="true"
+        android:id="@+id/edt_name"
+        android:hint="@string/user"
+        android:textColorHint="@color/color_degra"
+        android:layout_marginTop="@dimen/size_text_view"
+        android:layout_marginBottom="@dimen/size_card_elevation"
+        android:layout_marginRight="@dimen/size_card_elevation"
+        android:layout_marginLeft="@dimen/size_card_elevation"
+        android:fontFamily="cursive"
+        android:textSize="@dimen/size_32"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_password"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:textColorHint="@color/color_degra"
+        android:singleLine="true"
+        android:layout_marginBottom="@dimen/size_card_elevation"
+        android:layout_marginRight="@dimen/size_card_elevation"
+        android:layout_marginLeft="@dimen/size_card_elevation"
+        android:fontFamily="cursive"
+        android:textSize="@dimen/size_32"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_login"
+        android:text="@string/sign_in"
+        android:layout_marginBottom="@dimen/size_card_elevation"
+        android:layout_marginRight="@dimen/size_card_elevation"
+        android:layout_marginLeft="@dimen/size_card_elevation"
+        android:textSize="@dimen/size_24"
+        android:textColor="@color/color_white"
+        android:backgroundTint="@color/color_degra"
+        android:fontFamily="cursive"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_register"
+        android:text="@string/register"
+        android:layout_marginBottom="@dimen/size_card_elevation"
+        android:layout_marginRight="@dimen/size_card_elevation"
+        android:layout_marginLeft="@dimen/size_card_elevation"
+        android:backgroundTint="@color/color_degra"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/size_24"
+        android:fontFamily="cursive"
+        />
+
+
+
+</LinearLayout>

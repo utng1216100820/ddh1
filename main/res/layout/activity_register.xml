@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mx.com.dloza.descendent.MenuActivity"
+    android:background="@drawable/backfour">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_user"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/size_padding"
+        android:textSize="@dimen/size_40"
+        android:fontFamily="cursive"
+        android:textColor="@color/color_white"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:singleLine="true"
+        android:id="@+id/edt_email"
+        android:hint="@string/user"
+        android:textColorHint="@color/color_degra"
+        android:layout_marginTop="@dimen/size_text_view"
+        android:layout_marginBottom="@dimen/size_card_elevation"
+        android:layout_marginRight="@dimen/size_card_elevation"
+        android:layout_marginLeft="@dimen/size_card_elevation"
+        android:textSize="@dimen/size_32"
+        android:fontFamily="cursive"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_password"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:textColorHint="@color/color_degra"
+        android:singleLine="true"
+        android:textSize="@dimen/size_32"
+        android:fontFamily="cursive"
+        android:layout_marginBottom="@dimen/size_card_elevation"
+        android:layout_marginRight="@dimen/size_card_elevation"
+        android:layout_marginLeft="@dimen/size_card_elevation"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_register"
+        android:text="@string/register"
+        android:textSize="@dimen/size_32"
+        android:layout_marginBottom="@dimen/size_card_elevation"
+        android:layout_marginRight="@dimen/size_card_elevation"
+        android:layout_marginLeft="@dimen/size_card_elevation"
+        android:fontFamily="cursive"
+        android:backgroundTint="@color/color_degra"
+        android:textColor="@color/color_white"
+        />
+
+</LinearLayout>

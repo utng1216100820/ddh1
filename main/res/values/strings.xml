@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name" translatable="false">Descendientes de Hidalgo</string>
+    <string name="description">Descripción</string>
+    <string name="title">Título</string>
+    <string name="location">Localización</string>
+    <string name="name">Nombre</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="sr_mostacho">Sr. Mostacho</string>
+    <string name="rincon_28">Rincón 28</string>
+    <string name="fruty">Fruty Yoghurt</string>
+    <string name="nana_pancha">Nana Pancha</string>
+    <string name="change">Cambiar idioma</string>
+    <string-array name="languages">
+        <item>@string/str_es</item>
+        <item>@string/str_en</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="restaurant_plaza">Restaurante Plaza</string>
+    <string name="info_corner">Ya conoces Rincón 28 Pizza and Grill! Ven a nuestro restaurante, te invitamos a que pruebes el platillo del día.</string>
+    <string name="info_mostacho">En el Mostacho se come como en casa... pero sin tener que lavar los platos. Ven a tener una nueva oportunidad ce conocer algo nuevo!</string>
+    <string name="info_nana_pancha">Cocinar con amor te alimenta el alma y en Nana Pancha es lo que buscamos. Date la oportunidad de conocernos.</string>
+    <string name="info_restaurant_square">Comer o no comer esa es la cuestion, no me cuestione y coma aqui. Ven y conoce lo que tenemos para ti</string>
+    <string name="slide">Desliza hacia arriba para visualizar las imagenes.</string>
+    <string name="info_video_one">El siguiente video muestra donde se encuentra el Pueblo Mágico Dolores Hidalgo C.I.N. Gto., y los lugares más famosos que se pueden encontrar. El video es tomado de YouTube y se respentan los derechos de autor: Copyright: Galerías TV</string>
+    <string name="info_video_two">El siguiente video muestra donde se encuentra el Pueblo Mágico Dolores Hidalgo C.I.N. Gto., y los lugares más famosos que se pueden encontrar. El video es tomado de YouTube y se respentan los derechos de autor: Copyright: Adolfo Campos</string>
+    <string name="info_video_three">Entre montañas y depresiones de la serranía, palpita el corazón de nuestra nación independiente. La historia de este pueblo mágico narra los trascendentes acontecimientos que le dieron rumbo al destino de cada mexicano. Hace más de dos siglos que el cura don Miguel Hidalgo y Costilla hizo repicar la campana, y su vibrante llamado aun se siente en cada uno de los rincones del pueblo. En su parroquia, sus templos, sus haciendas, en cada calle donde transitan todos los días sus habitantes y sus visitantes. Mientras disfrutas de una deliciosa nieve, estás invitado a sentir ésta, tu vibrante historia. El video es tomado de YouTube y se respentan los derechos de autor: Copyright: Guanajuato México</string>
+    <string name="info_video_four">Conoce varios aspectos turísticos de Dolores Hidalgo C.I.N. Guanajuato. El video es tomado de YouTube y se respentan los derechos de autor: Copyright: Turismo Dolores Hidalgo</string>
+    <string name="login_principal" translatable="false">Descendientes de Hidalgo</string>
+    <string name="password">Contraseña</string>
+    <string name="sign_in">Entrar</string>
+    <string name="register">Registrar</string>
+    <string name="register_user">Registrar Usuario</string>
+    <string name="get_out">Salir</string>
+    <string name="content">Esté vídeo muestra un poco sobre el museo Casa de los Descendientes de Hidalgo, ven y atrevete a vivir una experiencia inolvidable en esté bello pueblo</string>
+    <string name="info_paint">Sala 1 Pinturas \nEn esta sala encontraras gran variedad de  pinturas podrás ver una copia del retrato original de Miguel Hidalgo y Costilla, Data del 08 de Octubre de 1810 ya que la original se encuentra en la Alhondiga de Granaditas en la cuidada de Guanajuato.</string>
+    <string name="info_photo_tour">Sala 2 Fotografías \nEn esta sala encontraras gran variedad de  fotografías una de ellas es una de gran importancia está es la FE DE BAUTIZO  de Miguel Hidalgo y Costilla.</string>
+    <string name="info_model_tour">Sala 3 Maquetas \nEn esta sala encontraras todo tipo de maquetas  relacionadas con la historia de Dolores Hidalgo, una de estás es La Villa de San Felipe, es aqui donde les enseñaban las primeras técnicas para el desarrollo de alfareria, el cultivo de viñedos.</string>
+    <string name="info_statue_tour">Sala 4 Estatuas \nEn esta sala encontraras gran variedad de  Estatuas algunas de ella son:  *Miguel Hidalgo y Costilla *El Pipila *Pipil* en lengua nahuatl huevo de cocono o guajolote, su nombre original es Juan José de los Reyes Amaro *El Pipila* Reyes porque nació el 06 de enero Pipil por que era pecoso.</string>
+    <string name="info_handicrafts_two">Dolores Hidalgo es uno de los principales centros productores de azulejo tradicional de mayólica con decoración de tipo colonial, de México.</string>
+    <string name="info_handicrafts_three">Cabe resaltar que estás cerámicas no se pueden designar con la palabra talavera ya que en 1997 Puebla realizó trámites ante el Instituto Mexicano de la Propiedad Industrial para obtener la denominación de origen.</string>
+    <string name="info_handicrafts_one">Las vajillas *tipo Talavera con influencia española son de alta calidad, también se fabrica la típica alfarería en jarrones, macetas y cántaros, además de diferentes piezas de cerámica hechas y decoradas a mano.</string>
+    <string name="dolores">Dolores</string>
+    <string name="crafts">Artesanias</string>
+    <string name="ny_handicrafts">Artesania</string>
+    <string name="p1_0">P1: 0</string>
+    <string name="p2_0">P2: 0</string>
+    <string name="title_church_one" translatable="false">Parroquia de Nuestra  \nSeñora de Los Dolores</string>
+    <string name="detail_church_one" translatable="false">Plaza Principal s/n, \nCentro, Dolores Hidalgo,  \nGto., 37800</string>
+    <string name="info_church_one">La edificación de la Parroquia de Nuestra Señora de Los Dolores se inició el 2 de Febrero de 1712 por disposición del Sr. Cura Lic. Álvaro de Osio y Ocampo y se concluyó en el año de 1778. En el año  de 1803, Don Miguel Hidalgo y Costilla se hace cargo del curato de la Parroquia y, en el pórtico de la misma, proclama el Grito de Independencia la madrugada del domingo 16 de septiembre de 1810.</string>
+    <string name="title_church_two" translatable="false">Parroquia de  La Asunción</string>
+    <string name="detail_church_two" translatable="false">Puebla 32, Centro, \nDolores Hidalgo, Gto., 37800</string>
+    <string name="info_church_two">La construcción del Templo de la Asunción de María inició el 12 de mayo de 1875 por disposición del Sr. Cura Don José María Gómez. Antes de ser nombrada como santa patrona bajo la advocación de la Asunción de María, se la veneraba como la Virgen de la Saleta</string>
+    <string name="title_church_three" translatable="false">Templo de la  \nTercera Orden</string>
+    <string name="detail_church_three" translatable="false">Puebla 7, Centro, \nDolores Hidalgo, Gto., 37800</string>
+    <string name="info_church_three">Después de la Parroquia de Nuestra Sra. De los Dolores, es el inmueble religioso más antiguo de la ciudad, según se aprecia en una inscripción que aparece en el arco del coro indicando que fue cerrado en 1755. Edificio compuesto de tres naves, su altar mayor está dedicado a la Virgen de la Inmaculada Concepción</string>
+    <string name="title_church_four" translatable="false">Templo el Señor  \ndel Calvario</string>
+    <string name="detail_church_four" translatable="false">37800 Centro,  \nGuanajuato 35B, Centro, Gto.</string>
+    <string name="info_church_four">Este Templo fue construido en 1510., por mano de gente del pueblo y dirigido por los frailes Agustinos.</string>
+    <string name="title_church_five" translatable="false">Jesús Nazareno</string>
+    <string name="detail_church_five" translatable="false">Corregidora 5, Centro, 37800 \nDolores Hidalgo C.I.N., Gto.</string>
+    <string name="info_church_five">El Templo de Jesús Nazareno se comenzó construir el 16 de junio 1875. La historia de los registros parroquiales nos indica que: se realizó junta de vecinos del barrio de «la obra banda» -la banda sur del Río Batán- para solicitarle al Señor Cura José María Gómez la necesidad de construir un templo para los auxilios espirituales</string>
+    <string name="title_gallery_three" translatable="false">Don Miguel de Hidalgo</string>
+    <string name="summary_gallery_three">Esta litografía data del sigo XVIII, es Miguel Gregorio Antonio Ignacio Hidalgo Costilla Gallega Mandarte Villaseñor a la edad de 39 años, siendo rector del Colegio de San Nicolás Obispo Valladolid hoy Morelia Michoacán</string>
+    <string name="summary_gallery_two">Litografía de Jesús Ramírez, la pintura original se encuentra en la Alhóndiga de Granaditas \'Miguel Gregorio Antonio Ignacio Hidalgo Costilla Gallega Mandarte Villaseñor\'</string>
+    <string name="title_gallery_two" translatable="false">Miguel Gregorio Antonio Ignacio Hidalgo Costilla</string>
+    <string name="title_gallery_one" translatable="false">Ignacio José de Jesús Pedro</string>
+    <string name="summary_gallery_one">Litografía de Ramón Pérez, Ignacio José de Jesús Pedro Regalado Allende Iunsaga</string>
+    <string name="title_gallery_four" translatable="false">María Josefa Crescencia Ortiz</string>
+    <string name="summary_gallery_four">Litografía de 1807 de autor desconocido, su nombre original María Josefa Crescencia Ortiz Téllez Gámez de Domínguez</string>
+    <string name="title_gallery_five">Maqueta Parroquia de Nuestra Señora de los Dolores</string>
+    <string name="summary_gallery_five">Maqueta a escala de la Parroqui de Nuestra Señora de los Dolores, fue fundada el 2 de febrero de 1712 por el Licenciado Alvaro de Osio y Ocampo, el primer Cura de la Villa de Dolores, antiguamente Cocomacan o Comacora</string>
+    <string name="church_name_menu">Iglesias</string>
+    <string name="lithography">Litografías</string>
+    <string name="gallery">Galería</string>
+    <string name="restaurant">Restaurante</string>
+    <string name="video">Videos</string>
+    <string name="museum">Museo</string>
+    <string name="crafts">Artesanias</string>
+    <string name="ice_cream">Nieves</string>
+    <string name="halls">Salas de Museo</string>
+    <string name="memoram">Memorama</string>
+    <string name="logout">Salir</string>
+    <string name="cost_ticket">Costo Boletos</string>
+    <string name="adult">General:</string>
+    <string name="_28" translatable="false">$30</string>
+    <string name="young">Estudiantes:</string>
+    <string name="_25" translatable="false">$20</string>
+    <string name="boys">Derecho a Fotos:</string>
+    <string name="_20" translatable="false">$10</string>
+    <string name="game_bottle">Juego de la Botella</string>
+    <string name="launch">Lanzar</string>
+    <string name="change_idiom">Cambiar Idioma</string>
+    <string name="title_snow_one" translatable="false">Nieves y Helados  Jouse</string>
+    <string name="direction_snow_one" translatable="false">Plaza Principal s/n, \nCentro, Dolores Hidalgo,</string>
+    <string name="description_snow_one">Nieves con más de 30 años de expericia y gran variedad de sabores.  Los sabores más comunes que podrás encontrar son: vainilla, limón, fresa, mango y nuez.   Los sabores más exoticos son: Petalo de rosa, Beso de Angel, Tequila, Camarón con pulpo y Chicharrón Ruso Blanco..   Fundado por Josué Morales Hernández .</string>
+    <string name="title_snow_two" translatable="false">Nieves  El More</string>
+    <string name="direction_snow_two" translatable="false">Plaza Principal s/n, \nDolores Hidalgo, Gto., 37800</string>
+    <string name="description_snow_two">Comezarón con su gran popularidad desde el año 1943.  Los sabores más comunes son: Vainilla, Nuez, Limón, Zapote.   Los sabores más exóticos son Tequila,</string>
+    <string name="title_snow_three" translatable="false">Nieves y Helados   El volcán</string>
+    <string name="direction_snow_three" translatable="false">Plaza Principal, Centro, \nDolores Hidalgo, Gto., 37800</string>
+    <string name="description_snow_three">Nieves desde 1962.  Los sabores más comunes son: Galleta, Cajeta, Borracha, Limón.   Cuentán con Sabores exóticos como lo son: Gansito, Tequila, Cerveza.</string>
+    <string name="price">Precios</string>
+    <string name="audio_guide">Audio Guia</string>
+    <string name="share">Compartir</string>
+    <string name="idioms">Idiomas</string>
+    <string name="info_share">Atrevete a compartir la experiencia vivida en Dolores Hidalgo, ¡Pueblo Mágico!</string>
+    <string name="credit">Creditos</string>
+    <string name="user">Usuario</string>
+    <string name="children">Niño</string>
+    <string name="register_costs">Registrar Costos de boletos</string>
+    <string name="name_transition_image">Share image</string>
+    <string name="gallery">Galeria</string>
+    <string name="str_en">Inglés</string>
+    <string name="str_es">Español</string>
+    <string name="action_settings">Configuración</string>
+    <string name="comments">Comentarios</string>
+    <string name="audioguide">AudioGuia</string>
+    <string name="language">Idioma</string>
+    <string name="info_cost_ticket">Si quieres más información sobre las entradas puedes llamar al telefono del personal</string>
+    <string name="puzzle">Rompe Cabezas</string>
+    <string name="not_permission_call">No se tiene permiso para realizar llamadas telefónicas</string>
+    <string name="permission_call">Se tiene permiso</string>
+    <string name="button_video_one">Pueblo Mágico Dolores Hidalgo C.I.N. Gto.</string>
+    <string name="button_video_two">Lugares a visitar Dolores Hidalgo C.I.N. Gto.</string>
+    <string name="button_video_three">Dolores Hidalgo, Guanajuato. Pueblo Mágico</string>
+    <string name="button_video_four">Turismo en el Pueblo Mágico Dolores Hidalgo</string>
+    <string name="hall_one">Sala 1 pinturas</string>
+    <string name="hall_two">Sala 2 Fotografías</string>
+    <string name="hall_three">Sala 3 Maquetas</string>
+    <string name="hall_four">Sala 4 Estatuas de Cera</string>
+    <string name="title_credit" translatable="false">DESCENDIENTES DE HIDALGO</string>
+    <string name="description_credit">Es una aplicación para promover el turismo en Dolores Hidalgo y el museo: Casa de los Descendientes de Hidalgo.</string>
+    <string name="authors_credit">AUTORES:</string>
+    <string name="name_team" translatable="false">Gutiérrez Rangel Celina Vianey Loza Cruz Víctor Daniel Moctezuma González Gloria Carolina</string>
+    <string name="consultant">ASESOR:</string>
+    <string name="name_consultant">Ing.: Anastacio Rodríguez García</string>
+    <string name="client">CLIENTE:</string>
+    <string name="name_museum_credit">Museo Casa de los Descendientes de Hidalgo</string>
+    <string name="bibliography">BIBLIOGRAFÍAS:</string>
+    <string name="info_video_five">Historia Dolores Hidalgo</string>
+    <string name="detail_video_five">Conoce la historia del bonito Pueblo Mágico Dolores Hidalgo Cuna de la Independencia Nacional.  El video es tomado de YouTube, el cual se respetan los derechos de autor. Copyright: Turismo Dolores Hidalgo</string>
+    <string name="bibliographies" translatable="false">Campos, A. (19 de marzo de 2013). Turismo Dolores Hidalgo CIN. Obtenido de https://www.youtube.com/watch?v=-_7X-Z6KldQyt=2s \n\ndescendienteshidalgo. (06 de agosto de 2012). museo casa de los descendientes de hidalgo. Obtenido de https://www.youtube.com/watch?v=_1w_EVPGGTI  \n\nHidalgo, T. D. (27 de enero de 2014). Dolores Hidalgo Turismo. Obtenido de https://www.youtube.com/watch?v=BDqjXQQMrZk  \n\nHidalgo, T. D. (23 de enero de 2014). Historia Dolores Hidalgo. Obtenido de https://www.youtube.com/watch?v=NgXvgWKk7C8  \n\nMéxico, G. (19 de febrero de 2015). Dolores Hidalgo, Guanajuato. Pueblo Mágico. Obtenido de https://www.youtube.com/watch?v=-riObenPK5Y  \n\nMéxico, G. (6 de mayo de 2016). Dolores Hidalgo, Pueblo Mágico. Obtenido de https://www.youtube.com/watch?v=2kLQiJBRkhk</string>
+    <string name="info_fruty">El Fruty te invita a que conozcas su menú, ven a nuestro Restaurante a vivir una experiencia inolvidable.</string>
+    <string name="loading">Cargando...</string>
+    <string name="cat_game">Juego del Gato</string>
+    <string name="win">El ganador es</string>
+    <string name="draw">Empate</string>
+    <string name="again_play">Volver A Jugar</string>
+    <string name="winner">\nGANADOR:</string>
+
+    <string name="house_descendents">Casa de los Descendientes de Hidalgo http://descendientes-de-Higalgo</string>
+</resources>

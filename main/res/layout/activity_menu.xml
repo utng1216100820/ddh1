@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="mx.com.dloza.descendent.MenuActivity">
+
+
+    <!--android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/logout" /-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backone">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_marginTop="@dimen/size_40"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_circulo"
+                        android:onClick="churchActivity"
+                        android:backgroundTint="@color/color_degra"
+                        android:src="@drawable/church"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/church_name_menu"
+                        android:textColor="@color/color_white"/>
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="@dimen/size_40"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/btn_menu_lithography"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_circulo"
+                        android:src="@drawable/lithography"
+                        android:backgroundTint="@color/color_degra"
+                        android:onClick="galleryActivity"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lithography"
+                        android:textColor="@color/color_white"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/size_12_pt">
+
+                    <ImageButton
+                        android:id="@+id/btn_gallery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_circulo"
+                        android:backgroundTint="@color/color_degra"
+                        android:src="@drawable/gallery"
+                        android:onClick="doloresGalleryActivity"
+
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/gallery"
+                        android:textColor="@color/color_white"/>
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="@dimen/size_40"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/restaurant"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_circulo"
+                        android:backgroundTint="@color/color_degra"
+                        android:onClick="restaurantActivity"
+                        android:src="@drawable/restaurant"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/restaurant"
+                        android:textColor="@color/color_white"/>
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="@dimen/size_40"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/btn_menu_video"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_circulo"
+                        android:backgroundTint="@color/color_degra"
+                        android:onClick="videoActivity"
+                        android:src="@drawable/video"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/video"
+                        android:textColor="@color/color_white"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/museum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_circulo"
+                        android:backgroundTint="@color/color_degra"
+                        android:onClick="next_video"
+                        android:src="@drawable/museum"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/museum"
+                        android:textColor="@color/color_white"/>
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="@dimen/size_40"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/crafts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_circulo"
+                        android:backgroundTint="@color/color_degra"
+                        android:onClick="next_crafts"
+                        android:src="@drawable/handicrafts"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/crafts"
+                        android:textColor="@color/color_white"/>
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="@dimen/size_40"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/ice_cream"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_circulo"
+                        android:backgroundTint="@color/color_degra"
+                        android:onClick="next_snow"
+                        android:src="@drawable/ice_cream"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ice_cream"
+                        android:textColor="@color/color_white"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/halls"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_circulo"
+                        android:backgroundTint="@color/color_degra"
+                        android:onClick="next_tour"
+                        android:src="@drawable/hall"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/halls"
+                        android:textColor="@color/color_white"/>
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="@dimen/size_40"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/size_12_pt">
+
+                    <ImageButton
+                        android:id="@+id/btn_audio_guide"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_circulo"
+                        android:backgroundTint="@color/color_degra"
+                        android:src="@drawable/audio_guide"
+                        android:onClick="guideAudioActivity"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/audio_guide"
+                        android:textColor="@color/color_white"/>
+
+                </LinearLayout>
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="@dimen/size_40"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/btn_menu_game_bottle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_circulo"
+                        android:src="@drawable/bottle_two"
+                        android:backgroundTint="@color/color_degra"
+                        android:onClick="gameBottleActivity"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/game_bottle"
+                        android:textColor="@color/color_white"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/game"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_circulo"
+                        android:backgroundTint="@color/color_degra"
+                        android:onClick="gameActivity"
+                        android:src="@drawable/game"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/memoram"
+                        android:textColor="@color/color_white"/>
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="@dimen/size_40"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/size_12_pt">
+
+                    <ImageButton
+                        android:id="@+id/btn_puzzle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_circulo"
+                        android:backgroundTint="@color/color_degra"
+                        android:src="@drawable/puzzle"
+                        android:onClick="puzzleActivity"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/puzzle"
+                        android:textColor="@color/color_white"/>
+
+                </LinearLayout>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_marginTop="@dimen/size_40"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/btn_share"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_circulo"
+                        android:src="@drawable/share_two"
+                        android:backgroundTint="@color/color_degra"
+                        android:onClick="shareActivity"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/share"
+                        android:textColor="@color/color_white"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/language"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_circulo"
+                        android:backgroundTint="@color/color_degra"
+                        android:onClick="languageActivity"
+                        android:src="@drawable/translate"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/idioms"
+                        android:textColor="@color/color_white"/>
+
+                </LinearLayout>
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="@dimen/size_40"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/size_12_pt">
+
+                    <ImageButton
+                        android:id="@+id/btn_game_cat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_circulo"
+                        android:backgroundTint="@color/color_degra"
+                        android:src="@drawable/cat"
+                        android:onClick="catGameActivity"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cat_game"
+                        android:textColor="@color/color_white"/>
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="40dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/btn_credit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_circulo"
+                        android:backgroundTint="@color/color_degra"
+                        android:src="@drawable/book"
+                        android:onClick="creditActivity"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/credit"
+                        android:textColor="@color/color_white"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/btn_cost_ticket"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_circulo"
+                        android:backgroundTint="@color/color_degra"
+                        android:src="@drawable/price"
+                        android:onClick="costTicketsActivity"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/price"
+                        android:textColor="@color/color_white"/>
+
+                </LinearLayout>
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="@dimen/size_40"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/size_12_pt">
+
+                    <ImageButton
+                        android:id="@+id/btn_logout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_circulo"
+                        android:backgroundTint="@color/color_degra"
+                        android:src="@drawable/logout"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/logout"
+                        android:textColor="@color/color_white"/>
+
+                </LinearLayout>
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>

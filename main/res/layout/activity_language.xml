@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backone"
+    tools:context="mx.com.dloza.descendent.hidalgo.LanguageActivity">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/change_idiom"
+        android:textAlignment="center"
+        android:textSize="@dimen/size_40"
+        android:textColor="@color/color_white"
+
+        />
+
+    <TableLayout>
+
+        <ImageView
+            android:id="@+id/img_spanish"
+            android:layout_width="@dimen/size_98"
+            android:layout_height="@dimen/size_116"
+            android:src="@drawable/spanish" />
+
+        <ImageView
+            android:id="@+id/img_english"
+            android:layout_width="@dimen/size_192"
+            android:layout_height="@dimen/size_114"
+            android:src="@drawable/english" />
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="@dimen/size_229"
+        android:layout_height="@dimen/size_52"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/size_18"
+        android:backgroundTint="@color/color_degra"
+        android:text="@string/hange" />
+
+</TableLayout>

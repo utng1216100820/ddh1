@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/size_15"
+    android:paddingLeft="@dimen/size_15"
+    android:paddingRight="@dimen/size_15"
+    android:paddingTop="@dimen/size_15"
+    android:background="@drawable/backone"
+    tools:context="mx.com.dloza.descendent.VideoFiveActivity">
+
+    <TextView
+        android:id="@+id/info_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/detail_video_five"
+        android:textSize="@dimen/size_18"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textColor="@color/color_white"/>
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/youtube_view"
+        android:layout_below="@id/info_video"
+        android:layout_marginTop="@dimen/size_24"/>
+
+
+
+</RelativeLayout>

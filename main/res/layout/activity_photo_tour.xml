@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="mx.com.dloza.descendent.dolores.PhotoTour">
+
+
+    <ImageView
+        android:layout_width="@dimen/size_700"
+        android:layout_height="@dimen/size_500"
+        android:layout_marginTop="@dimen/size_100"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/picture"
+        android:rotation="90"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/info_photo_tour"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/size_21"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

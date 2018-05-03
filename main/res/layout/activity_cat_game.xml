@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backone"
+    tools:context="mx.com.dloza.descendent.hidalgo.CatGameActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/size_75"
+        android:layout_marginLeft="@dimen/size_56"
+        android:id="@+id/ly_1_row">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_1"
+            android:text=" " />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_2"
+            android:text=" " />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_3"
+            android:text=" " />
+
+
+    </LinearLayout>
+
+    <!-- 1º LinearLayout-->
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/size_56"
+        android:layout_below="@+id/ly_1_row"
+        android:id="@+id/ly_2_row">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_4"
+            android:text=" " />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_5"
+            android:text=" " />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_6"
+            android:text=" " />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/Ly_2_fila"
+        android:layout_marginLeft="@dimen/size_56"
+        android:id="@+id/ly_3_row">
+
+        <Button
+            android:id="@+id/btn_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_8"
+            android:text=" " />
+
+        <Button
+            android:id="@+id/btn_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/ly_3_row">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/winner"
+            android:textSize="@dimen/size_24"
+            android:textColor="@color/colorPrimary"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_winner"
+            android:textColor="@color/colorPrimary"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_reset"
+            android:textSize="@dimen/size_24"
+            android:background="@color/color_degra"
+            android:textColor="@color/color_blue"
+            android:text="@string/again_play" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+

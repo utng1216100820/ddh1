@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backfour"
+    tools:context="mx.com.dloza.descendent.hidalgo.GuideAudioActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/size_271"
+        android:layout_height="@dimen/size_259"
+        android:layout_marginLeft="@dimen/size_16"
+        android:layout_marginStart="@dimen/size_56"
+        android:src="@drawable/audioguide"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="96dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/play_stop"
+        android:layout_width="@dimen/size_75"
+        android:layout_height="@dimen/size_75"
+        android:layout_marginLeft="@dimen/size_152"
+        android:layout_marginTop="@dimen/size_452"
+        android:background="@drawable/play"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

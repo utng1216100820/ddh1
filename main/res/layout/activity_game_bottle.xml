@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/picobot"
+    android:background="@drawable/background"
+    tools:context="mx.com.dloza.descendent.hidalgo.GameBottleActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/game_bottle"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="@dimen/size_24"
+        android:textColor="@color/color_white"
+        android:layout_margin="@dimen/size_16"
+        android:id="@+id/textView"/>
+    <ImageView
+        android:layout_width="@dimen/size_200"
+        android:layout_height="@dimen/size_300"
+        android:id="@+id/bottle"
+        android:layout_marginTop="@dimen/size_15"
+        android:src="@drawable/bottle"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/launch"
+        android:background="@color/colorAccent"
+        android:backgroundTint="@color/color_degra"
+        android:text="@string/launch"
+        android:textSize="@dimen/size_24"
+        android:layout_below="@+id/bottle"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
